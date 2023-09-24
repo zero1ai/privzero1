@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/grid-item",
+  "category": "gutenify",
+  "title": "Grid item",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "editorScript": [
+    "gutenify--grid-item"
+  ],
+  "editorStyle": [
+    "gutenify--grid-item--editor"
+  ],
+  "style": [
+    "gutenify--grid-item--frontend"
+  ],
+  "icon": "<svg id='f58c68d9-03aa-4773-a606-12afc2d9e209' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M21.4,0H2.6A2.61,2.61,0,0,0,0,2.61V21.39A2.61,2.61,0,0,0,2.6,24H21.4A2.61,2.61,0,0,0,24,21.39V2.61A2.61,2.61,0,0,0,21.4,0ZM1,8.67H7.63v6.66H1Zm7.68,0h6.64v6.66H8.68Zm7.69,0H23v6.66H16.37Zm0-7.67h5A1.61,1.61,0,0,1,23,2.61V7.67H16.37ZM8.68,1h6.64V7.67H8.68ZM1,2.61A1.61,1.61,0,0,1,2.6,1h5V7.67H1ZM7.63,23h-5A1.61,1.61,0,0,1,1,21.39V16.33H7.63Zm7.69,0H8.68V16.33h6.64ZM23,21.39A1.61,1.61,0,0,1,21.4,23h-5V16.33H23Z' fill='#2196f3' /></svg>"
+}

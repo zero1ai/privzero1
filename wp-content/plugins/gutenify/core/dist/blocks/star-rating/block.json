@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "category": "gutenify",
+  "name": "gutenify/star-rating",
+  "title": "Star rating",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "textColor": "#ff9800"
+      }
+    },
+    "rating": {
+      "type": "number",
+      "default": 5
+    },
+    "textAlignment": {
+      "type": "string",
+      "default": "center"
+    }
+  },
+  "editorScript": [
+    "gutenify--star-rating"
+  ],
+  "editorStyle": [
+    "gutenify--star-rating--editor"
+  ],
+  "style": [
+    "gutenify--star-rating--frontend"
+  ],
+  "icon": "<svg id='a764fa4e-cc3b-472f-ad43-7e74fc450527' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3.49,19.54H9.1l2.47,4.21a.49.49,0,0,0,.86,0l2.47-4.21h5.61a2.22,2.22,0,0,0,2.22-2.23V2.23A2.22,2.22,0,0,0,20.51,0h-17A2.22,2.22,0,0,0,1.27,2.23V17.31A2.22,2.22,0,0,0,3.49,19.54ZM2.27,2.23A1.23,1.23,0,0,1,3.49,1h17a1.23,1.23,0,0,1,1.22,1.23V17.31a1.23,1.23,0,0,1-1.22,1.23h-5.9a.5.5,0,0,0-.43.24L12,22.51,9.82,18.78a.5.5,0,0,0-.43-.24H3.49a1.23,1.23,0,0,1-1.22-1.23Z' fill='#2196f3' /><path d='M8.31,11a.64.64,0,0,1,.18.57L8,14.65a.64.64,0,0,0,.93.68l2.81-1.48a.64.64,0,0,1,.6,0l2.81,1.48a.64.64,0,0,0,.93-.68l-.53-3.13a.64.64,0,0,1,.18-.57L18,8.74a.64.64,0,0,0-.35-1.1l-3.14-.46A.66.66,0,0,1,14,6.83L12.58,4a.65.65,0,0,0-1.16,0L10,6.83a.66.66,0,0,1-.49.35l-3.14.46A.64.64,0,0,0,6,8.74Z' fill='#2196f3' /></svg>"
+}

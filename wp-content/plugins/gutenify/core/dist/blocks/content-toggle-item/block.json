@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/content-toggle-item",
+  "category": "gutenify",
+  "title": "Content toggle item",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "",
+        "backgroundGradient": "",
+        "padding": {
+          "desktop": {}
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "initialOpen": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": [
+    "gutenify--content-toggle-item"
+  ],
+  "editorStyle": [
+    "gutenify--content-toggle-item--editor"
+  ],
+  "style": [
+    "gutenify--content-toggle-item--frontend"
+  ],
+  "icon": "<svg id='a0ea59aa-6fec-4d6a-bdcf-9b5ed64992a2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M23.5,8.34H.5a.5.5,0,0,0-.5.5v6.32a.5.5,0,0,0,.5.5h23a.5.5,0,0,0,.5-.5V8.84A.5.5,0,0,0,23.5,8.34ZM23,14.66H1V9.34H23Z' fill='#2196f3'/><path d='M19.11,12.89,20,12l.92.92a.51.51,0,0,0,.36.15.5.5,0,0,0,.35-.85l-1.27-1.28a.51.51,0,0,0-.71,0l-1.27,1.28a.49.49,0,1,0,.7.7Z' fill='#2196f3'/></svg>"
+}

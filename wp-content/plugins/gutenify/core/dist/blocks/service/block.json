@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/service",
+  "category": "gutenify",
+  "title": "Service",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "desktop": {
+            "top": "20px",
+            "bottom": "20px",
+            "left": "20px",
+            "right": "20px"
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    },
+    "columnSize": {
+      "type": "number",
+      "default": 2
+    },
+    "hideButtons": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorScript": [
+    "gutenify--service"
+  ],
+  "editorStyle": [
+    "gutenify--service--editor"
+  ],
+  "style": [
+    "gutenify--service--frontend"
+  ],
+  "icon": "<svg id='a07f9816-dc94-4c58-a894-4887ada762e5' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M21.58,0H2.42A2.43,2.43,0,0,0,0,2.43V21.57A2.43,2.43,0,0,0,2.42,24H21.58A2.43,2.43,0,0,0,24,21.57V2.43A2.43,2.43,0,0,0,21.58,0ZM2.42,1H21.58A1.43,1.43,0,0,1,23,2.43V4.54H1V2.43A1.43,1.43,0,0,1,2.42,1ZM21.58,23H2.42A1.43,1.43,0,0,1,1,21.57v-16H23v16A1.43,1.43,0,0,1,21.58,23Z' fill='#2196f3' /><path d='M5.81,10.69h2a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5H5.81a.5.5,0,0,0-.5.5A.51.51,0,0,0,5.81,10.69Z' fill='#2196f3' /><path d='M4.39,12.66H9.18a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5H4.39a.5.5,0,0,0-.5.5A.51.51,0,0,0,4.39,12.66Z' fill='#2196f3' /><path d='M4.39,14.63H9.18a.5.5,0,0,0,0-1H4.39a.5.5,0,1,0,0,1Z' fill='#2196f3' /><path d='M8.47,15.6H5.11a.5.5,0,0,0-.5.5v2.15a.5.5,0,0,0,.5.5H8.47a.5.5,0,0,0,.5-.5V16.1A.51.51,0,0,0,8.47,15.6ZM8,17.75H5.61V16.6H8Z' fill='#2196f3' /><path d='M11.14,6.63H2.54a.5.5,0,0,0-.5.5V21.41a.5.5,0,0,0,.5.5h8.6a.51.51,0,0,0,.5-.5V7.13A.5.5,0,0,0,11.14,6.63Zm-.5,14.28H3V7.63h7.6Z' fill='#2196f3' /><path d='M16.14,10.69h1.95a.51.51,0,0,0,.5-.5.5.5,0,0,0-.5-.5H16.14a.5.5,0,0,0-.5.5A.5.5,0,0,0,16.14,10.69Z' fill='#2196f3' /><path d='M14.72,12.66h4.79a.51.51,0,0,0,.5-.5.5.5,0,0,0-.5-.5H14.72a.5.5,0,0,0-.5.5A.5.5,0,0,0,14.72,12.66Z' fill='#2196f3' /><path d='M14.72,14.63h4.79a.5.5,0,0,0,0-1H14.72a.5.5,0,0,0,0,1Z' fill='#2196f3' /><path d='M18.79,15.6H15.43a.51.51,0,0,0-.5.5v2.15a.5.5,0,0,0,.5.5h3.36a.5.5,0,0,0,.5-.5V16.1A.5.5,0,0,0,18.79,15.6Zm-.5,2.15H15.93V16.6h2.36Z' fill='#2196f3' /><path d='M21.46,6.63h-8.6a.5.5,0,0,0-.5.5V21.41a.51.51,0,0,0,.5.5h8.6a.5.5,0,0,0,.5-.5V7.13A.5.5,0,0,0,21.46,6.63ZM21,20.91h-7.6V7.63H21Z' fill='#2196f3' /></svg>"
+}

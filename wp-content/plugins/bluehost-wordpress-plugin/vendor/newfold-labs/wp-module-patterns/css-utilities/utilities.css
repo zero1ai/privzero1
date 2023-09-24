@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "parts/defaults";
+@import "parts/typography";
+@import "parts/spacing";
+@import "parts/colors";
+@import "parts/query";
+@import "parts/misc";
+@import "parts/block-preview";

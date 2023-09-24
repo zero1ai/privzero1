@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/section-title",
+  "category": "gutenify",
+  "title": "Section Title",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    },
+    "isSaved": {
+      "type": "boolean",
+      "default": false
+    },
+    "textAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "prefixContent": {
+      "type": "string",
+      "default": ""
+    },
+    "prefixColor": {
+      "type": "string",
+      "default": ""
+    },
+    "prefixFontSize": {
+      "type": "string",
+      "default": ""
+    },
+    "displayPrefix": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleContent": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleFontSize": {
+      "type": "string",
+      "default": ""
+    },
+    "suffixContent": {
+      "type": "string",
+      "default": ""
+    },
+    "suffixColor": {
+      "type": "string",
+      "default": ""
+    },
+    "suffixFontSize": {
+      "type": "string",
+      "default": ""
+    },
+    "displaySuffix": {
+      "type": "boolean",
+      "default": true
+    },
+    "prefixTag": {
+      "type": "string",
+      "default": "p"
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "suffixTag": {
+      "type": "string",
+      "default": "p"
+    }
+  },
+  "editorScript": [
+    "gutenify--section-title"
+  ],
+  "editorStyle": [
+    "gutenify--section-title--editor"
+  ],
+  "style": [
+    "gutenify--section-title--frontend"
+  ],
+  "icon": "<svg id='af96b2d0-e766-45ff-a399-fea356ead648' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M10.84,9.71H4.26a.5.5,0,0,0-.5.5V11.9a.5.5,0,0,0,1,0V10.71H7.05V18H6.28a.5.5,0,0,0-.5.5.51.51,0,0,0,.5.5H8.82a.51.51,0,0,0,.5-.5.5.5,0,0,0-.5-.5H8.05V10.71h2.29V11.9a.5.5,0,1,0,1,0V10.21A.5.5,0,0,0,10.84,9.71Z' fill='#2196f3' /><path d='M19.74,10H14.06a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5h5.68a.5.5,0,0,0,.5-.5A.5.5,0,0,0,19.74,10Z' fill='#2196f3' /><path d='M19.74,17.72H14.06a.5.5,0,0,0,0,1h5.68a.5.5,0,0,0,0-1Z' fill='#2196f3' /><path d='M19.74,13.84H14.06a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5h5.68a.5.5,0,0,0,.5-.5A.5.5,0,0,0,19.74,13.84Z' fill='#2196f3' /><path d='M21.58,0H2.42A2.43,2.43,0,0,0,0,2.38V21.53A2.43,2.43,0,0,0,2.42,24H21.58A2.43,2.43,0,0,0,24,21.53V2.38A2.43,2.43,0,0,0,21.58,0ZM2.42,1H21.58A1.43,1.43,0,0,1,23,2.38V4.54H1V2.38A1.43,1.43,0,0,1,2.42,1ZM21.58,23H2.42A1.43,1.43,0,0,1,1,21.53v-16H23v16A1.43,1.43,0,0,1,21.58,23Z' fill='#2196f3' /></svg>"
+}

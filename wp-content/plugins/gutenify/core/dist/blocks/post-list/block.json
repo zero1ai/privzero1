@@ -1,0 +1,100 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/post-list",
+  "category": "gutenify",
+  "title": "Post List",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "itemBackgroundColor": "#fff",
+        "itemLinkColor": "",
+        "itemColor": "",
+        "innerBlock": {
+          "boxShadow": {
+            "color": "#7a7a7a1a",
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 32,
+            "spread": 0,
+            "position": ""
+          },
+          "contentPadding": {
+            "desktop": {
+              "top": "30px",
+              "left": "40px",
+              "bottom": "30px",
+              "right": "40px"
+            }
+          }
+        }
+      }
+    },
+    "postLink": {
+      "type": "string",
+      "default": "Read more"
+    },
+    "columns": {
+      "type": "number",
+      "default": 2
+    },
+    "excerptLength": {
+      "type": "string",
+      "default": 12
+    },
+    "displayFeaturedImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostContent": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostLink": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostCategories": {
+      "type": "boolean",
+      "default": true
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "numberOfItems": 3
+      }
+    },
+    "spaceBetween": {
+      "type": "number",
+      "default": 30
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    }
+  },
+  "editorScript": [
+    "gutenify--post-list"
+  ],
+  "editorStyle": [
+    "gutenify--post-list--editor"
+  ],
+  "style": [
+    "gutenify--post-list--frontend"
+  ],
+  "icon": "<svg id='f70ab47f-cb54-43a2-a39d-f0c6a1d88cc7' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M24,5V2.38A2.43,2.43,0,0,0,21.58,0H2.42A2.43,2.43,0,0,0,0,2.38V5S0,5,0,5,0,5,0,5v16.5A2.43,2.43,0,0,0,2.42,24H21.58A2.43,2.43,0,0,0,24,21.53V5s0,0,0,0S24,5,24,5ZM2.42,1H21.58A1.43,1.43,0,0,1,23,2.38V4.5H1V2.38A1.43,1.43,0,0,1,2.42,1ZM21.58,23H2.42A1.43,1.43,0,0,1,1,21.53V5.5H23v16A1.43,1.43,0,0,1,21.58,23Z' fill='#2196f3' /><path d='M8,8.07H4.35a.5.5,0,0,0-.5.5v3.69a.51.51,0,0,0,.5.5H8a.51.51,0,0,0,.5-.5V8.57A.5.5,0,0,0,8,8.07Zm-.5,3.69H4.85V9.07H7.54Z' fill='#2196f3' /><path d='M19.65,8.07H12.33a.5.5,0,1,0,0,1h7.32a.5.5,0,0,0,0-1Z' fill='#2196f3' /><path d='M19.65,11.76H12.33a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5h7.32a.51.51,0,0,0,.5-.5A.5.5,0,0,0,19.65,11.76Z' fill='#2196f3' /><path d='M8,15.3H4.35a.5.5,0,0,0-.5.5v3.69a.51.51,0,0,0,.5.5H8a.51.51,0,0,0,.5-.5V15.8A.5.5,0,0,0,8,15.3ZM7.54,19H4.85V16.3H7.54Z' fill='#2196f3' /><path d='M19.65,15.3H12.33a.5.5,0,0,0,0,1h7.32a.5.5,0,0,0,0-1Z' fill='#2196f3' /><path d='M19.65,19H12.33a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5h7.32a.51.51,0,0,0,.5-.5A.5.5,0,0,0,19.65,19Z' fill='#2196f3' /></svg>"
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/post-carousel",
+  "category": "gutenify",
+  "title": "Post Carousel",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "itemBackgroundColor": "#fff",
+        "itemLinkColor": "",
+        "itemColor": "",
+        "innerBlock": {
+          "boxShadow": {
+            "color": "#00000014",
+            "horizontal": 0,
+            "vertical": 0,
+            "blur": 17,
+            "spread": 0,
+            "position": ""
+          },
+          "contentPadding": {
+            "desktop": {
+              "top": "30px",
+              "left": "40px",
+              "bottom": "30px",
+              "right": "40px"
+            }
+          }
+        }
+      }
+    },
+    "postLink": {
+      "type": "string",
+      "default": "Read more"
+    },
+    "columns": {
+      "type": "number",
+      "default": 2
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 12
+    },
+    "displayFeaturedImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostContent": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostLink": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "displayPostCategories": {
+      "type": "boolean",
+      "default": true
+    },
+    "query": {
+      "type": "object",
+      "default": {
+        "numberOfItems": 3
+      }
+    },
+    "spaceBetween": {
+      "type": "number",
+      "default": 30
+    },
+    "hasNavigation": {
+      "type": "boolean",
+      "default": true
+    },
+    "hasPagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "isAutoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    }
+  },
+  "editorScript": [
+    "gutenify--post-carousel"
+  ],
+  "editorStyle": [
+    "gutenify--post-carousel--editor"
+  ],
+  "viewScript": [
+    "gutenify-common-scripts-slider"
+  ],
+  "style": [
+    "gutenify--post-carousel--frontend",
+    "gutenify-swiper"
+  ],
+  "script": [
+    "gutenify-swiper"
+  ],
+  "icon": "<svg id='f41ca564-1048-429c-ace4-8f559563f543' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M22,3.24A2.26,2.26,0,0,0,19.78,1H2.26A2.26,2.26,0,0,0,0,3.24V20.76A2.26,2.26,0,0,0,2.26,23H17.14a.51.51,0,0,0,.39-.19l2.53-2.27a.5.5,0,0,0,.17-.37V17.47l3.51-4A1,1,0,0,0,23,11.77H22ZM2.26,2H19.78A1.26,1.26,0,0,1,21,3.24V5.13H1V3.24A1.27,1.27,0,0,1,2.26,2ZM23,12.81,19.35,17a.5.5,0,0,0-.12.33V20l-1.59,1.42v-4.1a.5.5,0,0,0-.12-.33L13.9,12.77H23Zm-9.09-1a1,1,0,0,0-.77,1.7l3.51,4V22H2.26A1.27,1.27,0,0,1,1,20.76V6.13H21v5.64Z' fill='#2196f3' /><path d='M7.4,8.4H4a.5.5,0,0,0-.5.5v3.37a.5.5,0,0,0,.5.5H7.4a.5.5,0,0,0,.5-.5V8.9A.5.5,0,0,0,7.4,8.4Zm-.5,3.37H4.53V9.4H6.9Z' fill='#2196f3' /><path d='M18,8.4h-6.7a.5.5,0,0,0,0,1H18a.5.5,0,0,0,0-1Z' fill='#2196f3' /><path d='M11,12.62a.47.47,0,0,0,.35.15.41.41,0,0,0,.19,0,.53.53,0,0,0,.27-.27.41.41,0,0,0,0-.19.47.47,0,0,0-.15-.35.49.49,0,0,0-.54-.11.46.46,0,0,0-.16.11.47.47,0,0,0-.15.35.41.41,0,0,0,0,.19A.36.36,0,0,0,11,12.62Z' fill='#2196f3' /><path d='M7.4,15H4a.5.5,0,0,0-.5.5v3.37a.5.5,0,0,0,.5.5H7.4a.5.5,0,0,0,.5-.5V15.51A.5.5,0,0,0,7.4,15Zm-.5,3.37H4.53V16H6.9Z' fill='#2196f3' /><path d='M11.32,15a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5h1.37a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5Z' fill='#2196f3' /><path d='M10.82,18.88a.5.5,0,0,0,.5.5h2.74a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5H11.32A.5.5,0,0,0,10.82,18.88Z' fill='#2196f3' /></svg>"
+}

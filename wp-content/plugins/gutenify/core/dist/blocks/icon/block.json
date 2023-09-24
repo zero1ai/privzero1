@@ -1,0 +1,76 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/icon",
+  "category": "gutenify",
+  "title": "Icon",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {}
+    },
+    "contentJustification": {
+      "type": "string",
+      "default": "center"
+    },
+    "url": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "string"
+    },
+    "rel": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "default": "icon"
+    },
+    "iconName": {
+      "type": "string",
+      "default": "fas fa-star"
+    },
+    "size": {
+      "type": "number",
+      "default": 40
+    },
+    "iconImage": {
+      "type": "object"
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "thumbnail"
+    },
+    "customSize": {
+      "type": "boolean",
+      "default": true
+    },
+    "borderRadius": {
+      "type": "string",
+      "default": 0
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 0
+    },
+    "padding": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "editorScript": [
+    "gutenify--icon"
+  ],
+  "editorStyle": [
+    "gutenify--icon--editor"
+  ],
+  "style": [
+    "gutenify--icon--frontend"
+  ],
+  "icon": "<svg id='a7f22ee9-1614-475a-8b5a-2a4b05234844' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm0,23A11,11,0,1,1,23,12,11,11,0,0,1,12,23Z' fill='#2196f3' /><path d='M17.61,10.12l-3.14-.45A.67.67,0,0,1,14,9.31l-1.4-2.84a.65.65,0,0,0-1.16,0L10,9.31a.67.67,0,0,1-.49.36l-3.14.45A.64.64,0,0,0,6,11.22l2.27,2.22a.64.64,0,0,1,.18.57L8,17.14a.64.64,0,0,0,.93.67l2.81-1.47a.64.64,0,0,1,.6,0l2.81,1.47a.64.64,0,0,0,.93-.67L15.51,14a.64.64,0,0,1,.18-.57L18,11.22A.64.64,0,0,0,17.61,10.12Z' fill='#2196f3' /></svg>"
+}

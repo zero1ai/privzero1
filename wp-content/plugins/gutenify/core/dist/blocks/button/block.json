@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/button",
+  "category": "gutenify",
+  "title": "Button",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "buttonBorderRadius": 0,
+        "buttonBorderWidth": 0
+      }
+    },
+    "text": {
+      "type": "string",
+      "default": ""
+    },
+    "placeholder": {
+      "type": "string",
+      "default": ""
+    },
+    "url": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "href"
+    },
+    "linkTarget": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "target"
+    },
+    "rel": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "a",
+      "attribute": "rel"
+    },
+    "icon": {
+      "type": "object",
+      "default": {
+        "name": "",
+        "positon": "before",
+        "spacing": ""
+      }
+    }
+  },
+  "editorScript": [
+    "gutenify--button"
+  ],
+  "editorStyle": [
+    "gutenify--button--editor"
+  ],
+  "style": [
+    "gutenify--button--frontend"
+  ],
+  "icon": "<svg id='a871f017-c7b3-41ed-8eb5-4dae8265a7a2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M3.32,10.31H20.68A2.61,2.61,0,0,0,23.29,7.7V2.61A2.61,2.61,0,0,0,20.68,0H3.32A2.61,2.61,0,0,0,.71,2.61V7.7A2.61,2.61,0,0,0,3.32,10.31ZM1.71,2.61A1.61,1.61,0,0,1,3.32,1H20.68a1.61,1.61,0,0,1,1.61,1.61V7.7a1.61,1.61,0,0,1-1.61,1.61H3.32A1.61,1.61,0,0,1,1.71,7.7Z' fill='#2196f3' /><path d='M3.32,24H20.68a2.61,2.61,0,0,0,2.61-2.61V16.3a2.61,2.61,0,0,0-2.61-2.61H3.32A2.61,2.61,0,0,0,.71,16.3v5.09A2.61,2.61,0,0,0,3.32,24ZM1.71,16.3a1.61,1.61,0,0,1,1.61-1.61H20.68a1.61,1.61,0,0,1,1.61,1.61v5.09A1.61,1.61,0,0,1,20.68,23H3.32a1.61,1.61,0,0,1-1.61-1.61Z' fill='#2196f3' /><path d='M9.53,5.65h4.94a.5.5,0,0,0,.5-.5.51.51,0,0,0-.5-.5H9.53a.51.51,0,0,0-.5.5A.5.5,0,0,0,9.53,5.65Z' fill='#2196f3' /><path d='M9.8,19.35h4.4a.51.51,0,0,0,.5-.5.5.5,0,0,0-.5-.5H9.8a.5.5,0,0,0-.5.5A.51.51,0,0,0,9.8,19.35Z' fill='#2196f3' /></svg>"
+}

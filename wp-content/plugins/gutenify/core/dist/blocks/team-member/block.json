@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/team-member",
+  "category": "gutenify",
+  "title": "Team Member",
+  "version": "2",
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "#fff",
+        "padding": {
+          "desktop": {
+            "top": "40px",
+            "right": "40px",
+            "bottom": "40px",
+            "left": "40px"
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    }
+  },
+  "editorScript": [
+    "gutenify--team-member"
+  ],
+  "editorStyle": [
+    "gutenify--team-member--editor"
+  ],
+  "style": [
+    "gutenify--team-member--frontend"
+  ],
+  "icon": "<svg id='b35e23ae-049a-460d-9b5c-b2d985a9f435' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12,0A12,12,0,0,0,3.18,20.11a.37.37,0,0,0,.12.13,11.95,11.95,0,0,0,17.4,0,.37.37,0,0,0,.12-.13A12,12,0,0,0,12,0Zm0,23a11,11,0,0,1-7.79-3.24,8.63,8.63,0,0,1,15.58,0A11,11,0,0,1,12,23Zm8.5-4a9.68,9.68,0,0,0-5.93-4.76,5.5,5.5,0,1,0-5.14,0A9.68,9.68,0,0,0,3.5,19a11,11,0,1,1,17,0ZM12,13.85a4.5,4.5,0,1,1,4.5-4.5A4.51,4.51,0,0,1,12,13.85Z' fill='#2196f3' /></svg>"
+}

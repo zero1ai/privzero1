@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutenify/info-box",
+  "category": "gutenify",
+  "title": "Info Box",
+  "version": "2",
+  "attributes": {
+    "className": {
+      "type": "string",
+      "default": "apple"
+    },
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    },
+    "blockAdvanceOptions": {
+      "type": "object",
+      "default": {
+        "backgroundColor": "#fff",
+        "padding": {
+          "desktop": {
+            "top": "40px",
+            "right": "40px",
+            "bottom": "40px",
+            "left": "40px"
+          }
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    },
+    "iconAlign": {
+      "type": "string"
+    },
+    "titleAlign": {
+      "type": "string"
+    },
+    "borderRadius": {
+      "type": "string",
+      "default": 0
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "editorScript": [
+    "gutenify--info-box"
+  ],
+  "editorStyle": [
+    "gutenify--info-box--editor"
+  ],
+  "style": [
+    "gutenify--info-box--frontend"
+  ],
+  "icon": "<svg id='b9750429-17f3-433d-9161-079c88c0d998' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M9.71,9.15h4.58a.5.5,0,0,0,.5-.5.5.5,0,0,0-.5-.5H9.71a.5.5,0,0,0-.5.5A.5.5,0,0,0,9.71,9.15Z' fill='#2196f3' /><path d='M17.63,10.72H6.37a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5H17.63a.5.5,0,0,0,.5-.5A.5.5,0,0,0,17.63,10.72Z' fill='#2196f3' /><path d='M17.63,13.29H6.37a.5.5,0,0,0-.5.5.5.5,0,0,0,.5.5H17.63a.5.5,0,0,0,.5-.5A.5.5,0,0,0,17.63,13.29Z' fill='#2196f3' /><path d='M15.94,15.87H8.06a.5.5,0,0,0-.5.5v2.8a.5.5,0,0,0,.5.5h7.88a.5.5,0,0,0,.5-.5v-2.8A.5.5,0,0,0,15.94,15.87Zm-.5,2.8H8.56v-1.8h6.88Z' fill='#2196f3' /><path d='M21.58,0H2.42A2.43,2.43,0,0,0,0,2.38V21.53A2.43,2.43,0,0,0,2.42,24H21.58A2.43,2.43,0,0,0,24,21.53V2.38A2.43,2.43,0,0,0,21.58,0ZM2.42,1H21.58A1.43,1.43,0,0,1,23,2.38V4.54H1V2.38A1.43,1.43,0,0,1,2.42,1ZM21.58,23H2.42A1.43,1.43,0,0,1,1,21.53v-16H23v16A1.43,1.43,0,0,1,21.58,23Z' fill='#2196f3' /></svg>"
+}
