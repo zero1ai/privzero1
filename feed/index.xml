@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>zero1</title>
+	<atom:link href="https://zero1ai.github.io/privzero1/feed/" rel="self" type="application/rss+xml" />
+	<link>https://zero1ai.github.io/privzero1/</link>
+	<description>disrupting the AI era</description>
+	<lastBuildDate>Tue, 25 Jul 2023 13:50:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3.1</generator>
+
+<image>
+	<url>https://zero1ai.github.io/privzero1/wp-content/uploads/2023/08/cropped-01-logo-24-32x32.png</url>
+	<title>zero1</title>
+	<link>https://zero1ai.github.io/privzero1/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Hello world!</title>
+		<link>https://zero1ai.github.io/privzero1/hello-world/</link>
+					<comments>https://zero1ai.github.io/privzero1/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[Luis]]></dc:creator>
+		<pubDate>Tue, 25 Jul 2023 13:50:31 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://box2471/cgi/addon_GT.cgi?s=GT::WP::Install::Cpanel+%28evetxwmy%29+-+127.0.0.1+%5Bnocaller%5D/?p=1</guid>
+
+					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+										<content:encoded><![CDATA[<p class="wp-block-paragraph ">Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://zero1ai.github.io/privzero1/hello-world/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
